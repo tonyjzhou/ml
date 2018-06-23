@@ -25,6 +25,13 @@ workon ml
 ```
 
 ## Python packages
+
+### Install
 ```bash
 pip3 install -r requirements.txt
+```
+
+### Verification
+```bash
+python3 -c "import jupyter, matplotlib, numpy, pandas, scipy, sklearn"
 ```
